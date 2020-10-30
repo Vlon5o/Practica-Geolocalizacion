@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tema"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="Más"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/normal_map"
+                android:title="@string/normal_map"
+                android:icon="@drawable/ic_world"/>
+
+            <item android:id="@+id/hybrid_map"
+                android:title="@string/hybrid_map"
+                android:icon="@drawable/ic_satelite"/>
+
+            <item android:id="@+id/satellite_map"
+                android:title="@string/satellite_map"
+                android:icon="@drawable/ic_mountain"/>
+
+            <item android:id="@+id/terrain_map"
+                android:title="@string/terrain_map"
+                android:icon="@drawable/ic_plano"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/calcular"
+        android:icon="@drawable/ic_near_me_black_24dp"
+        android:title="Más"
+        app:showAsAction="always">
+    </item>
+</menu>

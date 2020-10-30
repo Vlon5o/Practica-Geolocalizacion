@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab4Geolocalizacion</string>
+    <string name="title_activity_maps">Mapas-Distancia</string>
+    <string name="normal_map">Normal</string>
+    <string name="satellite_map">Satelite</string>
+    <string name="hybrid_map">Hibrido</string>
+    <string name="terrain_map">Terrarian</string>
+</resources>
